@@ -1,6 +1,6 @@
 # Nature Slider 🍃
 
-[solution](./Images/solution.mp4)
+![](./Images/solution.mp4)
 
 Nature Slider is an interactive web application that displays a collection of breathtaking nature photographs in a modern, user-friendly interface.
 
