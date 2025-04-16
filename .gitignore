@@ -90,3 +90,8 @@ build/
 # Cache directories
 .cache/
 .parcel-cache/
+
+# Chrome Extension specific
+# Ignore packed extension zip/crx
+*.crx
+*.zip

@@ -1,0 +1,61 @@
+:root {
+  --primary-bg: #f8f0ff;
+  --container-bg: #f3e8ff;
+  --border-color: #d4b3ff;
+  --text-color: #6b6b6b;
+  --hover-bg: #e6ccff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--primary-bg);
+  padding: 1rem;
+}
+
+div {
+  width: 30rem;
+  background-color: var(--container-bg);
+  border: 0.2rem solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+
+button {
+  background-color: var(--container-bg);
+  border: 0.2rem solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  margin: 1.5rem auto;
+  display: block;
+  width: 80%;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+button:hover {
+  background-color: var(--hover-bg);
+}

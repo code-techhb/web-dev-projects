@@ -1,0 +1,19 @@
+{
+  "name": "SortMarks",
+  "description": "SortMarks helps you tame bookmark chaos by sorting your bookmarks into customizable categories based on content keywords.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": ["bookmarks", "tabs"],
+  "background": {
+    "service_worker": "background/background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["data/categories.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
