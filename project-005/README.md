@@ -2,7 +2,7 @@
 
 A sleek, intuitive React application that calculates dates in the future or past based on user defined steps.
 
-![Date Calculator GIF](./public/solution.mp4)
+![Date Calculator GIF](./public/Solution.png)
 
 ## 🚀 Project Overview
 
