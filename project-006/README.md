@@ -2,7 +2,7 @@
 
 A customizable and interactive star rating component built with React. This component allows users to rate items with a visual star interface, complete with hover effects and customizable styling.
 
-![Star Rating](./public/solution.mp4)
+![Star Rating](./public/solution.png)
 
 The gif displays two star rating instances:
 
