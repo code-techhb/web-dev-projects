@@ -4,6 +4,8 @@ A minimalist, fun, interactive digital Post-It wall where you can dump all your 
 
 ![Post-It Wall Demo](/project-009/public/preview.png)
 
+**[🔗 Live app →](https://random-thoughts-post-its.netlify.app/)**
+
 ## ✨ Features
 
 - **Infinite Post-Its**: Add as many notes as you want with the floating `+` button
