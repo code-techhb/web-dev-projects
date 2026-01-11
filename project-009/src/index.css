@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap");
+
+@theme {
+  --font-family-handwritten: "Caveat", cursive;
+  --color-note-yellow: #fef9c3;
+  --color-note-cyan: #a5f3fc;
+  --color-note-pink: #fbcfe8;
+  --color-note-orange: #fed7aa;
+  --color-note-green: #bbf7d0;
+  --color-note-purple: #e9d5ff;
+}
+
+@layer base {
+  body {
+    background-color: #8b7355;
+    background-image: radial-gradient(
+        rgba(255, 255, 255, 0.1) 2px,
+        transparent 2px
+      ),
+      radial-gradient(rgba(0, 0, 0, 0.1) 2px, transparent 2px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+    font-family: var(--font-family-handwritten);
+    min-height: 100vh;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: oklch(81% 0.117 11.638);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: oklch(82.3% 0.12 346.018);
+}
